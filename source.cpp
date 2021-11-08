@@ -5,7 +5,11 @@ int tong(int a, int b)
 	cin >> a >> b;
 cout << "a + b = " << a + b << endl;
 }
-int hieu(int a, int b);
+int hieu(int a, int b)
+{int a, b;
+	cin >> a >> b;
+cout << "a - b = " << a - b << endl;
+}
 
 
 int main()
