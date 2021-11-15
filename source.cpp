@@ -8,12 +8,6 @@ int hieu(int a, int b)
 {
 	return a+b;
 }
-int tinh(int a, int b)
-{
-	return a*b;
-}
-
-
 int main()
 {
 	int a, b;
@@ -28,9 +22,6 @@ if(phepToan=="+"){
 	cout<<"Tong="<<tong(a,b);}
 if(phepToan=="-")
 	cout<<"Hieu="<<hieu(a,b);
-if(phepToan=="*")
-	cout<<"Tich="<<tich(a,b);
-
 	system("pause");
 	return 0;
 }
