@@ -22,15 +22,15 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-,*,/) ";
+	cout << "Chon phep toan (+,-,*,/)";
 	cin >> phepToan;
-if(phepToan=="+"){
-	cout<<"Tong="<<tong(a,b);}
+if(phepToan=="+")
+	cout<<"Tong="<<tong(a,b)<<endl;
 if(phepToan=="-")
-	cout<<"Hieu="<<hieu(a,b);
+	cout<<"Hieu="<<hieu(a,b)<<endl;
 if(phepToan=="*")
-	cout<<"Tich="<<tich(a,b);
-
+	cout<<"Tich="<<tich(a,b)<<endl;
+cout<<endl;
 	system("pause");
 	return 0;
 }
