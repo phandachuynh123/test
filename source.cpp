@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
 int tong(int a, int b)
-{int a, b;
-	cin >> a >> b;
-cout << "a + b = " << a + b << endl;
+{
+	return a+b;
 }
 int hieu(int a, int b)
-{int a, b;
-	cin >> a >> b;
-cout << "a - b = " << a - b << endl;
+{
+	return a+b;
+}
+int tinh(int a, int b)
+{
+	return a*b;
 }
 
 
@@ -20,12 +22,15 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
+	cout << "Chon phep toan (+,-,*,/) ";
 	cin >> phepToan;
 if(phepToan=="+"){
-	cout<<tong();}
-else
-cout<<hieu();
+	cout<<"Tong="<<tong(a,b);}
+if(phepToan=="-")
+	cout<<"Hieu="<<hieu(a,b);
+if(phepToan=="*")
+	cout<<"Tich="<<tich(a,b);
+
 	system("pause");
 	return 0;
 }
